@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-opendata-swiss",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "opendata.swiss MCP — Switzerland's federal open-data portal (CKAN catalogue).",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-opendata-swiss": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "opendata-swiss"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-opendata-swiss"
+    "url": "git+https://github.com/pipeworx-io/mcp-opendata-swiss.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-64127f539edc2597becb8758f33c84d53eb481bd955403f7e4b9413af22606f1",
+    "sourceCommit": "adb69d997f82a62e8e22b594488c7d04a227db35"
   }
 }

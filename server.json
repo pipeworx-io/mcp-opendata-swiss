@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/opendata-swiss",
   "title": "Opendata Swiss",
   "description": "opendata.swiss MCP — Switzerland's federal open-data portal (CKAN catalogue).",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/opendata-swiss",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-opendata-swiss",
