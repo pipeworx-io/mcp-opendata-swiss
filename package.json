@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-opendata-swiss",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "opendata.swiss MCP — Switzerland's federal open-data portal (CKAN catalogue).",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "opendata-swiss",
     "gatewaySlug": "opendata-swiss",
-    "sourceHash": "v1-314da10b6ebede757dce630be3845dc61303feb1fd6ecc15ed6637f3c9b1d266",
-    "sourceCommit": "b2c4383545bb35171d0ada2beb1c9c7168ea175e"
+    "sourceHash": "v1-3d8e5a6cd7d51ffd088289d1a1dc82fa73c3579c363121c27e0617cedeadee57",
+    "sourceCommit": "bed7faa04e7276899b5e3870ef11c98625371f2b"
   }
 }
